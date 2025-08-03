@@ -28,7 +28,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  padding: 50px;
 }
 
 .container {
@@ -36,7 +36,6 @@ body {
   width: 100%;
   background-color: var(--white);
   border-radius: 20px;
-  overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
@@ -110,16 +109,14 @@ body {
 }
 
 /* Ingredients Section */
-.ingredients {
-  margin-bottom: 32px;
-}
+
 
 .ingredients h2 {
   font-family: "Young Serif", serif;
   color: var(--nutmeg);
   font-size: 1.75rem;
   font-weight: 400;
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .ingredients ul {
@@ -129,7 +126,6 @@ body {
 
 .ingredients li {
   color: var(--wenge-brown);
-  margin-bottom: 12px;
   padding-left: 30px;
   position: relative;
 }
@@ -148,7 +144,7 @@ body {
 
 /* Instructions Section */
 .instructions {
-  margin-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .instructions h5 {
@@ -166,7 +162,6 @@ body {
 
 .instructions li {
   color: var(--wenge-brown);
-  margin-bottom: 16px;
   padding-left: 32px;
   position: relative;
   counter-increment: instruction-counter;
