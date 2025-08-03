@@ -124,12 +124,13 @@ body {
 
 .ingredients ul {
   list-style: none;
+  padding-left: 20px;
 }
 
 .ingredients li {
   color: var(--wenge-brown);
   margin-bottom: 12px;
-  padding-left: 20px;
+  padding-left: 30px;
   position: relative;
 }
 
@@ -150,7 +151,7 @@ body {
   margin-bottom: 32px;
 }
 
-.instructions h2 {
+.instructions h5 {
   font-family: "Young Serif", serif;
   color: var(--nutmeg);
   font-size: 1.75rem;
@@ -194,7 +195,7 @@ body {
   margin-bottom: 0;
 }
 
-.nutrition h2 {
+.nutrition h4 {
   font-family: "Young Serif", serif;
   color: var(--nutmeg);
   font-size: 1.75rem;
@@ -214,7 +215,6 @@ body {
 
 .nutrition-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 12px 0;
   border-bottom: 1px solid var(--light-grey);
@@ -227,12 +227,15 @@ body {
 .nutrition-row span:first-child {
   color: var(--wenge-brown);
   padding-left: 32px;
+  width: 200px;
 }
 
 .nutrition-value {
   color: var(--nutmeg);
   font-weight: 700;
-  padding-right: 32px;
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
 }
 
 /* Horizontal Rule */
@@ -309,8 +312,8 @@ hr {
   }
   
   .ingredients h2,
-  .instructions h2,
-  .nutrition h2 {
+  .instructions h5,
+  .nutrition h4 {
     font-size: 1.5rem;
   }
 }
